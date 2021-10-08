@@ -1,3 +1,3 @@
 <?php
-	$flag = "hkg{noice hhhhh}"
+	$flag = "hkg{congrats}"
 ?>
