@@ -1,0 +1,69 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/2217435.jpg);
+    background-size: cover;
+}
+
+.home {
+    padding: 10%;
+    text-align: center;
+    color: white;
+}
+
+.home h1 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+ul {
+    margin: 15px;
+    padding: 10px;   
+}
+
+ul li {
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    float: right;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+* {
+    font-family: "Ubunto", sans-serif;
+}
+
+form {
+    text-align: center;
+}
+
+.anyinput {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    border: solid 1px white;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 7px 10px;
+    margin: 8px 0;
+    font-size: 20px;
+    width: 40%;
+}
+
+input[type=submit]:hover {
+    border: solid 1px white;
+    color: white;
+    background-color: black;
+}
