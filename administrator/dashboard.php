@@ -22,8 +22,8 @@ else {
 <!DOCTYPE html>
 <html>
 <head>
-	<title>space box - admin login</title>
-	<link rel="stylesheet" type="text/css" href="../css/home.css">
+    <title>space box - admin login</title>
+    <link rel="stylesheet" type="text/css" href="../css/home.css">
 </head>
 <body>
     <ul>
@@ -34,14 +34,14 @@ else {
         <li><a href="../index.php">Home</a></li>
     </ul>
     <div class="home">
-    	<h2>welcom to admin's dashboaed</h2>
-        <center><img style="width: 500px;height: 400px;" src="../img/noice.gif"></center>
-        <h3>Note: all your uploaded posts going to /poasts dir</h3>
-		<form method="post" action="../posts.php">
+        <h2>welcom to admin's dashboaed</h2>
+        <center><img style="width: 300px;height: 200px;" src="../img/noice.gif"></center>
+        <h3>Note: all your uploaded posts going to /posts dir</h3>
+        <form method="post" action="../posts.php">
             <input class="anyinput" type="text" name="article-title" placeholder="article title" required><br>
-			<textarea style="width: 40%" name="article" placeholder="your article here" required></textarea><br>
-			<input type="submit" name="submit" value="post" required>
-		</form>
+            <textarea style="width: 40%" name="article" placeholder="your article here" required></textarea><br>
+            <input type="submit" name="submit" value="post" required>
+        </form>
     </div>
 </body>
 </html>
