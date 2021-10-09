@@ -2,10 +2,10 @@
 
 if (count($_COOKIE)>0 && isset($_COOKIE['admin'])) {
   
-  if ($_COOKIE['user'] == "admin") {
+  if ($_COOKIE['user'] == base64_encode("admin")) {
     header('Location: dashboard.php');
   }
-  elseif ($_COOKIE['user'] == "hamza") {
+  elseif ($_COOKIE['user'] == base64_encode("hamza")) {
   	header('Location: ../index.php');
   }
 }

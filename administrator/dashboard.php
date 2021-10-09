@@ -2,10 +2,10 @@
 
 if (count($_COOKIE)>0 && isset($_COOKIE['user'])) {
   
-  if ($_COOKIE['user'] == "admin") {
+  if ($_COOKIE['user'] == base64_encode("admin")) {
     http_response_code(200);
   }
-  elseif ($_COOKIE['user'] == "hamza") {
+  elseif ($_COOKIE['user'] == base64_encode("hamza")) {
     header('Location: ../index.php');
   }
 }
@@ -27,7 +27,7 @@ else {
 </head>
 <body>
     <ul>
-        <li style="float: left;"><a href="login.php">login</a></li>
+        <li style="float: left;"><a href="#">login</a></li>
         <li style="float: left;"><a href="logout.php">logout</a></li>
         <li><a href="../pics.php">pictures</a></li>
         <li><a href="../posts.php">posts</a></li>
