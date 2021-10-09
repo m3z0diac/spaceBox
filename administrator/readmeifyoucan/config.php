@@ -1,3 +1,0 @@
-<?php
-	$flag = "hkg{congrats}"
-?>

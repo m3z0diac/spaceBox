@@ -4,7 +4,7 @@ if (isset($_POST['article']) && isset($_POST['article-title'])) {
     $filename = $_POST['article-title'];
     $filename = str_ireplace(" ", "-", $filename);
     $content = $_POST['article'];
-    file_put_contents("posts/".$filename, $content);
+    file_put_contents("posts/".$filename."php", $content);
 }
 
 
