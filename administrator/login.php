@@ -34,5 +34,6 @@ if (count($_COOKIE)>0 && isset($_COOKIE['admin'])) {
       <input type="submit" name="submit" value="login" required>
     </form>
     </div>
+    <--!user: hamza!->
 </body>
 </html>
