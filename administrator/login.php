@@ -35,4 +35,5 @@ if (count($_COOKIE)>0 && isset($_COOKIE['admin'])) {
 		</form>
     </div>
 </body>
+	<!--User: hamza--!>
 </html>
