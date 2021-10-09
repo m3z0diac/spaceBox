@@ -8,7 +8,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['username']) && isset($
     header("Location: dashboard.php");
   }
   elseif($user == "hamza" && $pass == "password"){
-    setcookie("user", "hamza");
+    setcookie("user", "hamza", time()+3600);
     header("Location: ../index.php");
   }
 
