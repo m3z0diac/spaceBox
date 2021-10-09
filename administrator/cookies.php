@@ -4,11 +4,11 @@ if($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['username']) && isset($
   $pass = htmlspecialchars($_POST['password']);
 }
   if ($user == "admin" && $pass == "randompass") {
-    setcookie("user", "admin", time()+3600);
+    setcookie("user", "admin", time()+3600, "/");
     header("Location: dashboard.php");
   }
   elseif($user == "hamza" && $pass == "password"){
-    setcookie("user", "hamza", time()+3600);
+    setcookie("user", "hamza");
     header("Location: ../index.php");
   }
 

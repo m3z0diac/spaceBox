@@ -6,7 +6,7 @@ if (count($_COOKIE)>0 && isset($_COOKIE['admin'])) {
     header('Location: dashboard.php');
   }
   elseif ($_COOKIE['user'] == "hamza") {
-  	header('Location: index.php');
+  	header('Location: ../index.php');
   }
 }
 
