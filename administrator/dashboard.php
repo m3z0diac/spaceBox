@@ -35,6 +35,7 @@ else {
     </ul>
     <div class="home">
     	<h2>welcom to admin's dashboaed</h2>
+        <center><img style="width: 500px;height: 400px;" src="../img/noice.gif"></center>
         <h3>Note: all your uploaded posts going to /poasts dir</h3>
 		<form method="post" action="../posts.php">
             <input class="anyinput" type="text" name="article-title" placeholder="article title" required><br>
