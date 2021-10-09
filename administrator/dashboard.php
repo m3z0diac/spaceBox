@@ -27,7 +27,7 @@ else {
 </head>
 <body>
     <ul>
-        <li style="float: left;"><a href="#">login</a></li>
+        <li style="float: left;"><a href="login.php">login</a></li>
         <li style="float: left;"><a href="logout.php">logout</a></li>
         <li><a href="../pics.php">pictures</a></li>
         <li><a href="../posts.php">posts</a></li>
