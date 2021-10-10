@@ -1,3 +1,6 @@
 <?php
-	$flag = "hkg{congrats}"
+	$flag = "flag{7305839f0763175b7ae7de7f8f915c78f9253f986de8652feadd7c97f668c0e2fa149941dcf2206bf50b6eb4daec05c225d7230ec4c686a539dab4a74964e5ee}"
+	
+		#hint : 512
+
 ?>
