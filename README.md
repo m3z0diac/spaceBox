@@ -1,4 +1,4 @@
-# spaceBox ctf
+# SpaceBox ctf
 ![space box](https://raw.githubusercontent.com/hamza07-w/spaceBox/main/a.jpeg)   
 ## Description
 
