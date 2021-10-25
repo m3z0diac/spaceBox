@@ -9,4 +9,8 @@
 ## writeups
 
 #### Author : BaadMaro [@BaadMaro](https://github.com/BaadMaro)
-#### Source : [writeup](https://github.com/BaadMaro/CTF/tree/main/Challenges/WEB/spaceBox)
+#### link : [writeup](https://github.com/BaadMaro/CTF/tree/main/Challenges/WEB/spaceBox)
+
+
+#### Author : m3z0diac [@BaadMaro](https://github.com/hamza07-w)
+#### link : [writeup](https://hamza07-w.github.io/portfolio/writeups/spacebox.html)
