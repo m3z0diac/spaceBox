@@ -11,5 +11,5 @@
 #### Author : BaadMaro [@BaadMaro](https://github.com/BaadMaro)
 #### link : [writeup](https://github.com/BaadMaro/CTF/tree/main/Challenges/WEB/spaceBox)
 #### ---------------------------------------------
-#### Author : m3z0diac [@BaadMaro](https://github.com/hamza07-w)
+#### Author : Hamza Elansari [@m3z0diac](https://github.com/hamza07-w)
 #### link : [writeup](https://hamza07-w.github.io/portfolio/writeups/spacebox.html)
